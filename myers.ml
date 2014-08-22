@@ -32,6 +32,8 @@ let tl m = match m.pair with
 
 let length m = m.len
 
+(* Note: FIND(s,k) in Myers:IPL83 looks up the k'th element from the bottom
+         whereas nth looks up from the front (like the OCaml std library)   *)
 let rec nth m n = 
   let rec walk m index =
     match m.pair with
