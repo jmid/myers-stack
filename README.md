@@ -12,12 +12,19 @@ stack" available here:
   http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.188.9344
 
 
-To build and run:
------------------
+To build:
+---------
+
+On the command line simply run:
+
+    $ make
+
+
+To run:
+-------
 
 On the command line run:
 
-    $ ocamlc -c myers.mli myers.ml
     $ ocaml myers.cmo
         OCaml version 4.01.0
 
